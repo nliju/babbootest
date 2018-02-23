@@ -26,6 +26,7 @@ namespace ClipboardSpy
         {
             _dataObject = Clipboard.GetDataObject();
             CheckCurrentDataObject();
+//Test
         }
 
         private void CheckStatus(object sender, RoutedEventArgs args)
